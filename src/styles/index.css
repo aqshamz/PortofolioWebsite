@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+/* css reset */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    min-height: 100vh;
+    font-family: 'Lato';font-size: 22px;
+    color: #d3d3d3;
+    background: linear-gradient(to bottom, blue, black);
+    margin: 0;
+    padding: 0;
+}
+
+
