@@ -1,6 +1,7 @@
 import React from 'react';
 import  Binus  from '../assets/Binus.png';
 import  Purwadhika  from '../assets/Purwadhika.png';
+import { Link } from "react-router-dom";
 
 function EducationPage() {
   const educationList = [

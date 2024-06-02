@@ -7,6 +7,8 @@ import Jquery from '../assets/Jquerysvg.svg';
 import CodeIgniter from '../assets/Codeigniter.svg';
 import Express from '../assets/Expresssvg.svg';
 import  Go  from '../assets/Go.svg';
+import { Link } from "react-router-dom";
+
 
 
 function SkillPage() {
