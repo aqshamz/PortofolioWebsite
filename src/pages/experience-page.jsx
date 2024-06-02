@@ -36,7 +36,7 @@ function ExperiencePage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {jobExperiences.map((experience, index) => (
           <div key={index} className="flex mb-8">
-            <div className="w-50 h-50 mr-4">
+            <div className="w-32 md:w-48 lg:w-64 h-32 md:h-48 lg:h-64 mr-4">
               <img src={experience.corporateLogo} alt={`Corporate Logo ${index + 1}`} className="w-full h-full object-contain" />
             </div>
             <div>
