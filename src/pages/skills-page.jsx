@@ -47,7 +47,6 @@ function SkillPage() {
               ) : (
                 <FontAwesomeIcon icon={skill.icon} size="4x" className="mb-4" />
               )}
-              {/* <FontAwesomeIcon icon={skill.icon} size="4x" className="mb-4" /> */}
               <h3 className="text-xl">{skill.name}</h3>
             </div>
           ))}
@@ -64,7 +63,6 @@ function SkillPage() {
               ) : (
                 <FontAwesomeIcon icon={skill.icon} size="4x" className="mb-4" />
               )}
-              {/* <FontAwesomeIcon icon={skill.icon} size="4x" className="mb-4" /> */}
               <h3 className="text-xl">{skill.name}</h3>
             </div>
           ))}
@@ -81,7 +79,6 @@ function SkillPage() {
               ) : (
                 <FontAwesomeIcon icon={skill.icon} size="4x" className="mb-4" />
               )}
-              {/* <FontAwesomeIcon icon={skill.icon} size="4x" className="mb-4" /> */}
               <h3 className="text-xl">{skill.name}</h3>
             </div>
           ))}

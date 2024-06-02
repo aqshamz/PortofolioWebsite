@@ -27,7 +27,6 @@ function ExperiencePage() {
       description: 'Set Project Tracker, Design and Develop  Microservices Warehouse Management System (WMS) based on AxureRP using Bootstrap, Code Igniter 3, MySql, Stored Procedure, Gitlab and Go with Gin Framework as Cronjob And Rest API.',
       time: 'January 2024 - Present',
     },
-    // Add more job experiences as needed
   ];
 
   return (
@@ -37,7 +36,7 @@ function ExperiencePage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {jobExperiences.map((experience, index) => (
           <div key={index} className="flex mb-8">
-            <div className="w-16 h-16 mr-4">
+            <div className="w-50 h-50 mr-4">
               <img src={experience.corporateLogo} alt={`Corporate Logo ${index + 1}`} className="w-full h-full object-contain" />
             </div>
             <div>
